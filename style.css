@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.forming{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 950px;
+    background-color: rgba(32, 178, 171, 0.619);
+    padding: 20px 30px;
+    box-shadow: 0px 5px 10px;
+}
+
+.first{
+    background-image: url("https://picsum.photos/600/400");
+}
+
+.title{
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: Georgia;
+    margin-top: 40px;
+
+}
+.emaill{
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 40px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Georgia;
+
+}
+.password{
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 28px;
+    margin-left: 5px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Georgia;
+
+}
+
+.textcap{
+    margin-left: 82px;
+    font-weight: bold;
+    font-family: Georgia;
+
+}
+
+.txtinp{
+    font-family: Georgia;
+
+}
+
+input{
+    background-color: rgba(128, 128, 128, 0.18);
+    border: none;
+}
+
+.login{
+    width: 100%;
+    border: none;
+    /* margin-right: 200px; */
+    margin-top: 30px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: Georgia;
+
+}
+
+
+@media (max-width: 576px) {
+    .forming {
+        padding: 10px;
+    }
+    .title {
+        font-size: large;
+    }
+}
+@media (max-width: 767px) {
+    .first, .member {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .member{
+        margin-top: 40px;
+    }
+    .first{
+        height: 900px;
+    }
+
+    .forming {
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: large;
+    }
+
+    .form-control, .btn {
+        font-size: 0.875rem;
+    }
+}
